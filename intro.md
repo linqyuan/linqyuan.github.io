@@ -6,4 +6,4 @@
 # 联系方式
 1. 邮件：linqiyuan2016@gmail.com
 2. 公众号：小世界大角落
-![](/pics/qrcode.png =100x100)
+![](/pics/qrcode.png)
