@@ -4,4 +4,5 @@
 3. [CSDN](https://blog.csdn.net/weixin_41697173?spm=1010.2135.3001.5421&type=lately)
 
 # 联系方式
-1. Mail: linqiyuan2016@gmail.com
+1. 邮件: linqiyuan2016@gmail.com
+2. 公众号：小世界大角落
