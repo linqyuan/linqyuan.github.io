@@ -6,4 +6,4 @@
 # 联系方式
 1. 邮件：linqiyuan2016@gmail.com
 2. 公众号：小世界大角落
-![](https://mp.weixin.qq.com/rr?timestamp=1619623389&src=3&ver=1&signature=UlIipeW6h8sTihPQrqInp7HrT0iLZgvAaWS6icOKJhVexFbKkanHRCMFmxVwImRe8i2UpKEvkefZ78t4onzILAYYFX0PNp7ZAdEz1ZA0ado=)
+![](https://mp.weixin.qq.com/rr?timestamp=1619623389&src=3&ver=1&signature=UlIipeW6h8sTihPQrqInp7HrT0iLZgvAaWS6icOKJhVexFbKkanHRCMFmxVwImRe8i2UpKEvkefZ78t4onzILAYYFX0PNp7ZAdEz1ZA0ado=){:height="100px" width="400px"}
