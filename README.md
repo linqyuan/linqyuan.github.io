@@ -1,7 +1,7 @@
 # 欢迎来到我的网站
 > 自我介绍：目前是物理系在读博士生，感兴趣的是用光去获取大自然的信息，目前的研究方向是光电催化分解水。
 
-[联系](https://linqyuan.github.io/new) 
+[联系](https://linqyuan.github.io/intro) 
 
-[可能有帮助的网站]
+[可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
 
