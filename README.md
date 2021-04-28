@@ -7,7 +7,7 @@
 2. [第二章作业](https://linqyuan.github.io/群论/第二章作业.pdf)：群表示理论
 
 ## 2 其他
-1. [联系](https://linqyuan.github.io/intro) 
+1. [联系方式](https://linqyuan.github.io/intro) 
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
 
