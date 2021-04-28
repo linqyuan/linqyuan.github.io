@@ -1,1 +1,2 @@
 theme: jekyll-theme-cayman
+img { zoom: 50%; }
