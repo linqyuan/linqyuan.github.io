@@ -11,4 +11,4 @@
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
 
-3. [数据分析](https://linqyuan.github.io/data)
+3. [数据分析](https://linqyuan.github.io/data.html)
