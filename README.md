@@ -1,23 +1,26 @@
 # 少量的问题才是有益的
 > 自我介绍：目前是物理系在读博士生，感兴趣的是用光去获取大自然的信息，目前的研究方向是光电催化分解水。
 
-## 1 群论
-1. [第一章作业](https://linqyuan.github.io/群论/第一章作业.pdf)：群的基本概念
+## 1 数学
+### 1.1 群论
+1. [第一章作业](https://linqyuan.github.io/math/group_theory/第一章作业.pdf)：群的基本概念
 
-2. [第二章作业](https://linqyuan.github.io/群论/第二章作业.pdf)：群表示理论
+2. [第二章作业](https://linqyuan.github.io/math/group_theory/第一章作业.pdf)：群表示理论
 
-## 2 激光光谱
+## 2 物理
+### 2.1 凝聚态
+1. [石墨烯能带计算](https://linqyuan.github.io/physics/condense_matter/tightbind_graphene/tb_graphene.pdf)
 
-## 3 超快光谱
+### 2.2 光谱学
 
-## 4 PEC分解水
+## 3 化学
+### 3.1 PEC
 
-## 5 英语
+## 4 英语
 
-## 6 其他
+## 5 其他
 1. [联系方式](https://linqyuan.github.io/intro) 
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
 
-3. [石墨烯能带紧束缚计算](/物理/凝聚态/Band_of_Graphene/石墨烯能带结构计算.pdf)
-
+3. [听君一席话]()
