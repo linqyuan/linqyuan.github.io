@@ -19,3 +19,5 @@
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
 
+3. [石墨烯能带紧束缚计算](/物理/凝聚态/Band_of_Graphene/石墨烯能带结构计算.pdf)
+
