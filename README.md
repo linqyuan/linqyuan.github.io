@@ -5,7 +5,7 @@
 ### 1.1 群论
 1. [第一章作业](https://linqyuan.github.io/math/group_theory/第一章作业.pdf)：群的基本概念
 
-2. [第二章作业](https://linqyuan.github.io/math/group_theory/第一章作业.pdf)：群表示理论
+2. [第二章作业](https://linqyuan.github.io/math/group_theory/第二章作业.pdf)：群表示理论
 
 ## 2 物理
 ### 2.1 凝聚态
