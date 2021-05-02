@@ -13,14 +13,7 @@
 
 2. [能带论](https://linqyuan.github.io/physics/condense_matter/tightbind_graphene/Band_theory.pdf)
 
-### 2.2 光谱学
-
-## 3 化学
-### 3.1 PEC
-
-## 4 英语
-
-## 5 其他
+## 3 其他
 1. [联系方式](https://linqyuan.github.io/intro) 
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
