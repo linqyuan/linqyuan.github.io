@@ -11,6 +11,7 @@
 ### 2.1 凝聚态
 1. [石墨烯能带计算](https://linqyuan.github.io/physics/condense_matter/tightbind_graphene/tb_graphene.pdf)
 
+2. [能带论](https://linqyuan.github.io/physics/condense_matter/tightbind_graphene/Band_theory.pdf)
 ### 2.2 光谱学
 
 ## 3 化学
