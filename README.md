@@ -13,6 +13,8 @@
 
 2. [能带论](https://linqyuan.github.io/physics/condense_matter/tightbind_graphene/Band_theory.pdf)
 
+3. [Lamor进动](https://www.mdnice.com/writing/020572ec3e2b424dbc79b3e54307719b)
+
 ## 3 其他
 1. [联系方式](https://linqyuan.github.io/intro) 
 
