@@ -16,8 +16,8 @@
 3. [Larmor进动](https://www.mdnice.com/writing/020572ec3e2b424dbc79b3e54307719b)
 
 ## 3 电子信息
-### 3.1 数据处理
-1. []()
+### 3.1 代码
+1. [数据处理](https://linqyuan.github.io/userful_code)
 
 
 ## 3 其他
