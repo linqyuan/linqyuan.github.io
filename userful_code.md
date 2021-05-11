@@ -17,7 +17,7 @@ y = np.sin(2*np.pi*f1*t)*np.exp(-t/tao)
 import numpy as np
 from scipy.fftpack import fft,ifft
 import matplotlib.pyplot as plt
-# 参数初始化
+
 Fs = 1024
 tao = 1/4
 f1 = 200
