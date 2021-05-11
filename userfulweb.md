@@ -9,11 +9,13 @@
 ## 2 专业网站
 ### 2.1 物理
 1. [晶体结构和能带](https://www.materialsproject.org/) 偶尔看一下，看实验数据比较常用的是NIST数据库
-2. [Wolfram Alpha](https://www.wolframalpha.com/input/?i=plank+constant) 做快速单位转化，比如从波长、波数、电子伏特、多少K。
+2. [NIST数据库](https://www.nist.gov/pml/productsservices/physical-reference-data)
+3. [Wolfram Alpha](https://www.wolframalpha.com/input/?i=plank+constant) 做快速单位转化，比如从波长、波数、电子伏特、多少K。
+4. [元素周期表](https://www.nist.gov/system/files/documents/2019/12/10/nist_periodictable_july2019.pdf)
 
 ### 2.2 电子信息
-1. [在线python符号运算器](https://live.sympy.org/) 一般还是用Mathematics，但我没用过
-2. [谷歌colab](https://colab.research.google.com/) 做计算和数据处理在Matlab和Python之间切换
+1. [在线python符号运算器](https://live.sympy.org/) 替代Mathematics
+2. [谷歌colab](https://colab.research.google.com/) 
 3. [Python绘图速查表](https://linqyuan.github.io/Information/Python/matplotlib_cheatsheets/cheatsheets.pdf)
 4. [Markdown转公众号](https://mdnice.com/)
 
