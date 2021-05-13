@@ -12,6 +12,7 @@
 2. [NIST数据库](https://www.nist.gov/pml/productsservices/physical-reference-data)
 3. [Wolfram Alpha](https://www.wolframalpha.com/input/?i=plank+constant) 做快速单位转化，比如从波长、波数、电子伏特、多少K。
 4. [元素周期表](https://www.nist.gov/system/files/documents/2019/12/10/nist_periodictable_july2019.pdf)
+5. [光学仪器emund](https://www.edmundoptics.com/)[ThorLab](https://www.thorlabs.de/)
 
 ### 2.2 电子信息
 1. [在线python符号运算器](https://live.sympy.org/) 替代Mathematics
