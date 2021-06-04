@@ -10,6 +10,8 @@
 
 3. [主动观点和被动观点](https://linqyuan.github.io/math/group_theory/%E4%B8%BB%E5%8A%A8%E8%A7%82%E7%82%B9%E5%92%8C%E8%A2%AB%E5%8A%A8%E8%A7%82%E7%82%B9.pdf)
 
+4. [第三章作业]():SU(2)群和 SO(3)群
+
 ## 2 物理
 ### 2.1 凝聚态
 1. [石墨烯能带计算](https://linqyuan.github.io/physics/condense_matter/tightbind_graphene/tb_graphene.pdf)
