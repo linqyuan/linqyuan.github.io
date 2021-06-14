@@ -23,6 +23,8 @@
 3. [Larmor进动](https://www.mdnice.com/writing/020572ec3e2b424dbc79b3e54307719b)
 
 4. [Landau Level](https://linqyuan.github.io/physics/condense_matter/朗道能级.pdf)
+
+5. [问题](https://linqyuan.github.io/physics/论文结构.pdf)
 ## 3 电子信息
 ### 3.1 代码
 1. [数据处理](https://linqyuan.github.io/userful_code)
