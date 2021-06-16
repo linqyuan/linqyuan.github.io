@@ -14,7 +14,7 @@
 
 5. [第四章作业](https://linqyuan.github.io/math/group_theory/第四章作业.pdf)：对称群
 
-6. [置换群特征标规则](https:linqyuan.github.io/math/group_theory/置换群特征标规则.pdf)
+6. [置换群特征标规则](https://linqyuan.github.io/math/group_theory/置换群特征标规则.pdf)
 
 ## 2 物理
 ### 2.1 凝聚态
