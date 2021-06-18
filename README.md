@@ -31,7 +31,7 @@
 ### 3.1 代码
 1. [数据处理](https://linqyuan.github.io/userful_code)
 
-2. [sympy速查表](linqyuan.github.io/Information/Python/sympy_ct.pdf)
+2. [sympy速查表](https://linqyuan.github.io/Information/Python/sympy_ct.pdf)
 
 
 ## 3 其他
