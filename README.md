@@ -33,7 +33,7 @@
 
 2. [sympy速查表](https://linqyuan.github.io/Information/Python/sympy_ct.pdf)
 
-3. [Python绘图速查表](https://linqyuan.github.io/Information/Python/matplotlib_cheatsheets/cheatsheets.pdf))
+3. [Python绘图速查表](https://linqyuan.github.io/Information/Python/matplotlib_cheatsheets/cheatsheets.pdf)
 
 
 ## 3 其他
