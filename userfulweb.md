@@ -18,8 +18,7 @@
 ### 2.2 电子信息
 1. [在线python符号运算器](https://live.sympy.org/) 替代Mathematics
 2. [谷歌colab](https://colab.research.google.com/) 
-3. [Python绘图速查表](https://linqyuan.github.io/Information/Python/matplotlib_cheatsheets/cheatsheets.pdf)
-4. [Markdown转公众号](https://mdnice.com/)
+3. [Markdown转公众号](https://mdnice.com/)
 
 ### 2.3 写作
 1. [grammarly](https://app.grammarly.com/)
