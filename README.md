@@ -27,6 +27,7 @@
 4. [Landau Level](https://linqyuan.github.io/physics/condense_matter/朗道能级.pdf)
 
 5. [问题](https://linqyuan.github.io/physics/论文结构.pdf)
+
 ## 3 电子信息
 ### 3.1 代码
 1. [数据处理](https://linqyuan.github.io/userful_code)
@@ -35,8 +36,11 @@
 
 3. [Python绘图速查表](https://linqyuan.github.io/Information/Python/matplotlib_cheatsheets/cheatsheets.pdf)
 
+## 4 化学
+### 4.1 PEC分解水
+1. [PEC理论]()
 
-## 3 其他
+## 4 其他
 1. [联系方式](https://linqyuan.github.io/intro) 
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
