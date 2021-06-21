@@ -38,9 +38,9 @@
 
 ## 4 化学
 ### 4.1 PEC分解水
-1. [PEC理论]()
+1. [PEC理论](https://linqyuan.github.io/Chem/光电解水.pdf)
 
-## 4 其他
+## 5 其他
 1. [联系方式](https://linqyuan.github.io/intro) 
 
 2. [可能有帮助的网站](https://linqyuan.github.io/userfulweb) 
