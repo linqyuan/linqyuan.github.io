@@ -3,8 +3,7 @@
 [github主页](https://github.com/linqyuan/linqyuan.github.io)
 
 ## 1 数学
-### 1.1 群论
-
+### 1.1 [群论](https://linqyuan.github.io/math/group_theory/readme)
 
 ## 2 物理
 ### 2.1 凝聚态
