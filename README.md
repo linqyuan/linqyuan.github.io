@@ -18,7 +18,7 @@
 5. [问题](https://linqyuan.github.io/physics/论文结构.pdf)
 
 ### 2.2 同步辐射原理和应用
-1. [同步辐射原理简介]((https://linqyuan.github.io/physics/synchrotron/同步辐射原理.pdf)
+1. [同步辐射原理简介](https://linqyuan.github.io/physics/synchrotron/同步辐射原理.pdf)
 
 ## 3 电子信息
 ### 3.1 代码
