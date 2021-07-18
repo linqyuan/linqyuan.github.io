@@ -22,7 +22,7 @@ Fs = 1024
 tao = 1/4
 f1 = 200
 
-t = np.linspace(0,1,Fs) # 如果区间从（0,2），那么FFT出来频率的结果就不对，不太明白，希望有人可以告诉我。
+t = np.linspace(0,1,Fs) # 如果区间从（0,2），那么FFT出来频率的结果就不对。因为频率间隔不同了。
 y = np.sin(2*np.pi*f1*t)*np.exp(-t/tao)
 plt.subplot(121)
 plt.plot(t,y)   
