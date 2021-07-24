@@ -30,8 +30,15 @@
 
 - [数据处理](https://linqyuan.github.io/Information/usefulcode.html)
 - [sympy速查表](https://linqyuan.github.io/Information/Python/sympy_ct.pdf)
-
 - [Python绘图速查表](https://linqyuan.github.io/Information/Python/matplotlib_cheatsheets/cheatsheets.pdf)
+
+### 3.2 机器学习材料应用相关论文
+
+- [Machine learning for advanced energy materials <Energy and AI> 2021](https://linqyuan.github.io/Information/ML/Machine%20learning%20for%20advanced%20energy%20materials.html)
+
+- [Energy and AI <Energy and AI> 2020](https://linqyuan.github.io/Information/ML/Energy_and_AI.html)
+- [Best practices in ML for Chem <Nature> 2021](https://linqyuan.github.io/Information/ML/Best%20practices%20in%20ML%20for%20Chem.html)
+- [Machine learning made easy for optimizing chemical reactions<Nature> 2021](https://linqyuan.github.io/Information/ML/2021-NNews-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BC%98%E5%8C%96%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94.html)
 
 ## 4 化学
 
