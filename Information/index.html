@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="css/vs2015.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			const size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Advanced Slide使用
+参考[Advanced Slides Documentation](https://mszturc.github.io/obsidian-advanced-slides/basic-syntax/)</script></section><section  data-markdown><script type="text/template">## 安装
+1. 在`Obsidian`插件中安装`Advanced slides`
+
+2. 测试：点击任务栏按钮![](https://picgo-11.oss-cn-beijing.aliyuncs.com/img/202204161437056.png)，可能需要更改端口号</script></section><section  data-markdown><script type="text/template">## 基本语法
+1. 用`---`分割幻灯片
+2. 常见的Markdown语法均适用
+3. 图片处理
+```md
+[Image.jpg|300x100](link)
+```</script></section><section  data-markdown><script type="text/template">## 进阶语法
+1. 元素注释
+```md
+border <!-- .element: class="with-border" -->
+background <!-- .element: style="background: blue" -->
+attribute <!-- .element: data-toggle="modal" -->
+根据容器大小覆盖<!-- .element: style="object-fit: cover" -->
+```
+2. 背景图片设置
+```md
+## Slide with image background
+<!-- .slide: data-background-image="https://picsum.photos/seed/picsum/800/600" -->
+## Slide with image background #2
+<!-- .slide: data-background-image="https://picsum.photos/seed/picsum/800/600" -->
+## with opacity
+<!-- .slide: data-background-image="https://picsum.photos/seed/picsum/800/600" data-background-opacity="0.5" -->
+## 背景颜色
+<!-- .slide: style="background-color: green" -->
+```</script></section><section  data-markdown><script type="text/template">## 进阶语法
+3. 块设置
+```md
+<div class="block"> <!-- .element: style="background-color: red" -->
+```
+4. 自定义属性
+```md
+<style>
+	.with-border{
+		border: 1px solid red;
+	}
+</style>
+styled text <!-- .element: class="with-border" -->
+```</script></section><section  data-markdown><script type="text/template">## 幻灯片分割
+```md
+## 均匀分割成n列
+<split even>
+
+<p style="line-height: 0" class="reset-paragraph"><img src="https://picsum.photos/id/1005/250/250" alt="" ></img></p>
+
+<p style="line-height: 0" class="reset-paragraph"><img src="https://picsum.photos/id/1010/250/250" alt="" ></img></p>
+
+<p style="line-height: 0" class="reset-paragraph"><img src="https://picsum.photos/id/1025/250/250" alt="" ></img></p>
+
+</split>
+
+## 以3em间隙分割成n列
+<split even gap="3">
+
+## 自定义左右列宽度
+<split left="2" right="1" gap="2">
+
+## 自动分割成4列
+<split wrap="4">
+
+## 无边界间隙
+<split no-margin>
+```</script></section><section  data-markdown><script type="text/template">## 容器设置
+```md
+## drag为块大小，drop为块位置
+<div class="" style="" >
+
+
+## drop可以设置为
+center、top、bottom、left、right、topleft、topright、bottomleft、bottomright
+
+## 设置背景颜色
+加入bg="green"
+
+## 嵌入用flow，如果按列嵌入用'col'，按行用`row`
+<grid  drag="40 100" drop="center" bg="coral" flow="col">
+Heading
+**Lorem Ipsum** is simply dummy text
+</div>
+
+## 设置容器border
+border="width style color"
+
+## 设置容器padding
+pad="top right bottom left">
+
+## 设置对齐方式
+align="left、right、center (default)、justify / block、top、bottom、topleft、topright、bottomleft、bottomright"
+
+## 设置子项目空间分配
+Justify Content = "start、center、space-between、space-around、space-evenly (default)、end"
+```
+<!-- .slide: class="drop" -->
+</script></section><section  data-markdown><script type="text/template">## 自定义css
+1. 把自定义的css文件放在`.obsidian/plugins/obsidian-advanced-slides/css/`
+2. 在yaml中填入`theme: css/my-theme.css`
+
+
+
+
+</script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealCustomControls,
+        ],
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
